@@ -7,14 +7,14 @@ import { Top, Tab, TabItem } from './style';
 const Home = () => {
     const activeClassName = (isActive) => {
         // console.log(isActive);
-        return isActive ? 'selected' : '';
+        return isActive ? 'selected' : ' ';
     }
 
     return (
         <div>
             <Top>
                 <span className="iconfont menu">&#xe65c;</span>
-                <span className="title">WebApp</span>
+                <span className="title">云音悦</span>
                 <span className="iconfont search">&#xe62b;</span>
             </Top>
             <Tab>

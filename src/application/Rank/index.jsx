@@ -1,6 +1,6 @@
 import React from "react";
 
-const Rank = () => {
+function Rank() {
     return (
         <div>Rank</div>
     )
