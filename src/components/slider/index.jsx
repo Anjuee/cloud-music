@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { SliderContainer } from './style';
 import 'swiper/css';
 import Swiper, { Autoplay, Pagination } from 'swiper';
+
 Swiper.use([Pagination, Autoplay]);
 
 function Slider(props) {

@@ -28,8 +28,8 @@ export const SliderContainer = styled.div`
       width: 100%;
       height: 100%;
     }
-    .swiper-pagination-bullet-active {
+    /* .swiper-pagination-bullet-active {
       background: ${style["theme-color"]};
-    }
+    } */
   }
 `

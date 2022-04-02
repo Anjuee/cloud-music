@@ -13,7 +13,7 @@ const routes = [
                 index: true,
                 element: <Recommend />,
             },
-            { path: "/recommend", element: <Recommend /> },
+            { path: "recommend", element: <Recommend /> },
             { path: 'singers', element: <Singers /> },
             { path: 'rank', element: <Rank /> },
         ],
